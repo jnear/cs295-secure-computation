@@ -1,9 +1,9 @@
 ---
-title: CS 295 Secure Distributed Computation
+title: CS 295/395 Secure Distributed Computation
 layout: default
 ---
 
-# UVM CS 295: Secure Distributed Computation (Fall 2020)
+# UVM CS 295/395: Secure Distributed Computation (Fall 2020)
 
 ## Announcements
 
