@@ -57,9 +57,9 @@ By the end of this course, you will be able to:
   have not been added to the CS 295 Team, please email me. Lectures
   will be recorded and available on MS Teams for offline viewing.
 - **Course textbooks** are available online (see below)
-- **Blackboard** for the course is available [here](tba)
+- **Blackboard** for the course is available [here](https://bb.uvm.edu/webapps/blackboard/execute/launcher?type=Course&id=_143340_1&url=)
 - **Homework assignments** will be turned in via Blackboard
-- **Discussions** will take place on the course [Piazza](tba)
+- **Discussions** will take place on MS Teams
 
 ## Textbook & Other References
 
