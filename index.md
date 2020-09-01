@@ -60,6 +60,7 @@ By the end of this course, you will be able to:
 - **Blackboard** for the course is available [here](https://bb.uvm.edu/webapps/blackboard/execute/launcher?type=Course&id=_143340_1&url=)
 - **Homework assignments** will be turned in via Blackboard
 - **Discussions** will take place on MS Teams
+- **Videos** from lecture are available [here](https://web.microsoftstream.com/group/3416a83c-5358-4b6e-8747-01d9c1963f01?view=videos)
 
 ## Textbook & Other References
 
