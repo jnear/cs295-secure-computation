@@ -58,7 +58,13 @@ By the end of this course, you will be able to:
   will be recorded and available on MS Teams for offline viewing.
 - **Course textbooks** are available online (see below)
 - **Blackboard** for the course is available [here](https://bb.uvm.edu/webapps/blackboard/execute/launcher?type=Course&id=_143340_1&url=)
-- **Homework assignments** will be turned in via Blackboard
+- **Course Github Repo** [is available here](https://github.com/jnear/cs295-secure-computation)
+- **Daily exercises**
+  - [Download exercises here](https://github.com/jnear/cs295-secure-computation/tree/master/exercises)
+  - Turn in notebook files on Blackboard
+- **Homework assignments** 
+  - [Download notebooks here](https://github.com/jnear/cs295-secure-computation/tree/master/homework)
+  - Turn in notebook files on Blackboard
 - **Discussions** will take place on MS Teams
 - **Videos** from lecture are available [here](https://web.microsoftstream.com/group/3416a83c-5358-4b6e-8747-01d9c1963f01?view=videos)
 
@@ -88,7 +94,7 @@ throughout the semester.
 Your grade for the course will be determined as follows:
 
 - 11 homework assignments (5% each; 55% total)
-- in-class exercises (25% total)
+- in-class exercises (25% total) (3 lowest scores will be dropped)
 - final project (20%)
 
 ### Exams & Quizzes
@@ -96,7 +102,7 @@ Your grade for the course will be determined as follows:
 There will be no exams for this course.
 There is no final exam, and this course will conclude before the University's exam period.
 
-### Homework Assignments and In-class Exercises
+### Homework Assignments and Daily In-class Exercises
 
 This course will use Python for examples and for programming
 assignments.  Students are expected to be proficient in Python
@@ -116,7 +122,7 @@ To submit an assignment:
 *Please* do not change the name of the .ipynb file. This makes the
 grading process more difficult.
 
-Please let me know if you have any questions about the submission process, or trouble with Gradescope.
+Please let me know if you have any questions about the submission process.
 
 ### Late Work
 
@@ -161,21 +167,21 @@ Important due dates:
 - Homework assignments are due every *Sunday* at 11:59pm.
 - In-class exercises are due *the day of the class*, by 11:59pm.
 
-| Item                                     | Due Date |
-| ---------------------------------------: | -------- |
-| Homework 1                               | 9/13/20  |
-| Homework 2                               | 9/20/20  |
-| Homework 3                               | 9/27/20  |
-| Homework 4                               | 10/4/20  |
-| Homework 5                               | 10/11/20 |
-| Homework 6                               | 10/18/20 |
-| Homework 7                               | 10/26/20 |
-| Homework 8                               | 11/1/20  |
-| Homework 9                               | 11/8/20  |
-| Homework 10                              | 11/15/20 |
-| Homework 11                              | 11/22/20 |
-| Project presentations                    | TBA      |
-| Final project writeup/implementation     | TBA      |
+| Item                                                                                             | Due Date |
+| -----------------------------------------------------------------------------------------------: | -------- |
+| [Homework 1](https://github.com/jnear/cs295-secure-computation/blob/master/homework/HW_1.ipynb)  | 9/13/20  |
+| Homework 2                                                                                       | 9/20/20  |
+| Homework 3                                                                                       | 9/27/20  |
+| Homework 4                                                                                       | 10/4/20  |
+| Homework 5                                                                                       | 10/11/20 |
+| Homework 6                                                                                       | 10/18/20 |
+| Homework 7                                                                                       | 10/26/20 |
+| Homework 8                                                                                       | 11/1/20  |
+| Homework 9                                                                                       | 11/8/20  |
+| Homework 10                                                                                      | 11/15/20 |
+| Homework 11                                                                                      | 11/22/20 |
+| Project presentations                                                                            | TBA      |
+| Final project writeup/implementation                                                             | TBA      |
 
 Schedule of topics:
 
