@@ -4,14 +4,6 @@
 import random
 import functools
 
-# 12th Mersenne Prime
-# (for this application we want a known prime number as close as
-# possible to our security level; e.g.  desired security level of 128
-# bits -- too large and all the ciphertext is large; too small and
-# security is compromised)
-_PRIME = 2 ** 13 - 1
-# 13th Mersenne Prime is 2**521 - 1
-
 _RINT = functools.partial(random.SystemRandom().randint, 0)
 
 def _eval_at(poly, x, prime):
