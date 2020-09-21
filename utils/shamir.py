@@ -1,9 +1,6 @@
 # This code is adapted from:
 # https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing
 
-import random
-import functools
-
 _RINT = functools.partial(random.SystemRandom().randint, 0)
 
 def _eval_at(poly, x, prime):
