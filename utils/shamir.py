@@ -1,6 +1,9 @@
 # This code is adapted from:
 # https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing
 
+import functools
+import random
+
 _RINT = functools.partial(random.SystemRandom().randint, 0)
 
 def _eval_at(poly, x, prime):
@@ -87,3 +90,26 @@ def recover_secret(shares, prime=_PRIME):
         raise ValueError("need at least two shares")
     x_s, y_s = zip(*shares)
     return _lagrange_interpolate(0, x_s, y_s, prime)
+
+def share_input(inp, minimum, shares, prime=_PRIME):
+    if minimum > shares:
+        raise ValueError("Pool secret would be irrecoverable.")
+    poly = [inp] + [_RINT(prime - 1) for i in range(minimum-1)]
+    points = [(i, _eval_at(poly, i, prime))
+              for i in range(1, shares + 1)]
+    return points
+
+def plusFE(p, a, b):
+    """Add field elements a and b in GF(p)"""
+    return (a + b) % p
+
+def multFE(p, a, b):
+    """Multiply field elements a and b in GF(p)"""
+    return (a * b) % p
+
+def sumFE(p, xs):
+    """Sum up a list of field elements xs in GF(p)"""
+    total = 0
+    for x in xs:
+        total = plusFE(p, x, total)
+    return total
