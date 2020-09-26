@@ -99,6 +99,8 @@ def share_input(inp, minimum, shares, prime=_PRIME):
               for i in range(1, shares + 1)]
     return points
 
+# Finite field arithmetic (plus, mult, sum)
+
 def plusFE(p, a, b):
     """Add field elements a and b in GF(p)"""
     return (a + b) % p
@@ -113,3 +115,49 @@ def sumFE(p, xs):
     for x in xs:
         total = plusFE(p, x, total)
     return total
+
+# Share and reconstruct for Shamir sharing
+
+def share_shamir(t, n, x, prime=_PRIME):
+    shares_with_x = share_input(x, minimum=t, shares=n, prime=prime)
+    return [y for x,y in shares_with_x]
+
+def reconstruct_shamir(shares, prime=_PRIME):
+    shares_with_x = list(zip(range(1, len(shares)+1), shares))
+    return recover_secret(shares_with_x, prime=prime)
+
+# Finite field matrix inversion, algorithm from here:
+# https://stackoverflow.com/questions/4287721/easiest-way-to-perform-modular-matrix-inversion-with-python
+
+def inversemodp(a, p):
+    a = a % p
+    if (a == 0):
+        #print "a is 0 mod p"
+        return None
+    if a > 1 and p % a == 0:
+        return None
+    #(x,y) = generalizedEuclidianAlgorithm(p, a % p);
+    (x,y) = _extended_gcd(p, a % p);
+    inv = y % p
+    assert (inv * a) % p == 1
+    return inv
+
+def identitymatrix(n):
+    return [[int(x == y) for x in range(0, n)] for y in range(0, n)]
+
+def inversematrix(matrix, q):
+    n = len(matrix)
+    A = np.matrix([[ matrix[j, i] for i in range(0,n)] for j in range(0, n)], dtype = int)
+    Ainv = np.matrix(identitymatrix(n), dtype = int)
+    for i in range(0, n):
+        factor = inversemodp(A[i,i], q)
+        if factor is None:
+             raise ValueError("Error: no factor")
+        A[i] = A[i] * factor % q
+        Ainv[i] = Ainv[i] * factor % q
+        for j in range(0, n):
+            if (i != j):
+                factor = A[j, i]
+                A[j] = (A[j] - factor * A[i]) % q
+                Ainv[j] = (Ainv[j] - factor * Ainv[i]) % q
+    return Ainv
