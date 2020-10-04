@@ -173,7 +173,7 @@ Important due dates:
 | [Homework 2](https://github.com/jnear/cs295-secure-computation/blob/master/homework/HW_2.ipynb)  | 9/21/20  |
 | [Homework 3](https://github.com/jnear/cs295-secure-computation/blob/master/homework/HW_3.ipynb)  | 9/28/20  |
 | [Homework 4](https://github.com/jnear/cs295-secure-computation/blob/master/homework/HW_4.ipynb)  | 10/5/20  |
-| Homework 5                                                                                       | 10/12/20 |
+| Homework 5 *lite*                                                                                | 10/12/20 |
 | Homework 6                                                                                       | 10/19/20 |
 | Homework 7                                                                                       | 10/27/20 |
 | Homework 8                                                                                       | 11/2/20  |
@@ -190,9 +190,9 @@ Schedule of topics:
 | 8/31/20    | Intro to secure computation, additive secret sharing                                 | PMPC Ch. 1 |
 | 9/7/20     | Adversaries and threat models (no class Monday)                                      | PMPC Ch. 2 |
 | 9/14/20    | Shamir secret sharing                                                                | PMPC Ch. 3 |
-| 9/21/20    | Multiparty computation for arithmetic circuits: GMW protocol                         | PMPC Ch. 3 |
-| 9/28/20    | Two-party computation for boolean circuits: Yao's garbled circuits                   | PMPC Ch. 3 |
-| 10/5/20    | Malicious MPC                                                                        | PMPC Ch. 6 |
+| 9/21/20    | Shamir secret sharing operations                                                     | PMPC Ch. 3 |
+| 9/28/20    | Multiparty computation for arithmetic circuits: GMW protocol                         | PMPC Ch. 3 |
+| 10/5/20    | *Intermission*. Real systems; garbled circuits; malicious MPC                        | PMPC Ch. 6 |
 | 10/12/20   | Partially homomorphic cryptosystems: Paillier and El Gamal                           | TBA        |
 | 10/19/20   | Fully homomorphic encryption                                                         | TBA        |
 | 10/26/20   | Zero-knowledge proof I                                                               | PMPC Ch. 6 |
