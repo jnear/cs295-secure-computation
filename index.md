@@ -81,7 +81,7 @@ We will use the following textbooks for this course:
    Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, Steven Goldfeder 
 
 - Zero Knowledge Proofs: An Illustrated Primer  
-  Matthew Green  
+  Matthew Green
   - [Part 1](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
   - [Part 2](https://blog.cryptographyengineering.com/2017/01/21/zero-knowledge-proofs-an-illustrated-primer-part-2/)
 
