@@ -183,9 +183,9 @@ Important due dates:
 | [Homework 8](https://github.com/jnear/cs295-secure-computation/blob/master/homework/CS295_HW_8.ipynb)   | 11/2/20  |
 | [Homework 9](https://github.com/jnear/cs295-secure-computation/blob/master/homework/CS295_HW_9.ipynb)   | 11/9/20  |
 | [Homework 10](https://github.com/jnear/cs295-secure-computation/blob/master/homework/CS295_HW_10.ipynb) | 11/16/20 |
-| Homework 11                                                                                             | 12/4/20  |
-| Project presentations                                                                                   | TBA      |
-| Final project writeup/implementation                                                                    | TBA      |
+| Homework 11 *lite*                                                                                      | 12/4/20  |
+| Project proposals                                                                                       | 12/2/20  |
+| Final project writeup/video/implementation                                                              | 12/9/20  |
 
 Schedule of topics:
 
