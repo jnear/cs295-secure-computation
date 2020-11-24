@@ -155,8 +155,7 @@ All academic integrity misconduct will be treated according to [UVM's Code of Ac
 ## Final Projects
 
 The course will include a final project, completed in groups of 1-3 students.
-The final project will demonstrate your mastery of the concepts covered in this course
-by implementing a practical system to perform privacy-preserving analysis of realistic data.
+The final project will demonstrate your mastery of the concepts covered in this course.
 
 Click [here](https://jnear.github.io/cs295-secure-computation/projects) for more complete information.
 
