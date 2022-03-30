@@ -3,11 +3,12 @@ title: CS 295/395 Secure Distributed Computation
 layout: default
 ---
 
-# UVM CS 295/395: Secure Distributed Computation (Fall 2020)
+# UVM CS 295/395: Secure Distributed Computation (Fall 2022)
 
 ## Announcements
 
-None yet.
+- I'm still updating the course description for Fall 2022 - some of
+  the information below may change.
 
 ## Course Description
 
@@ -47,19 +48,17 @@ By the end of this course, you will be able to:
 
 ## Administrative
 
-- **Lecture**: Monday, Wednesday, Friday, 9:40am - 10:30am, on MS Teams
+- **Lecture**: Monday, Wednesday, Friday, 10:50am-11:40am in MARSH LIFE SCI 105
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: Mondays and Fridays, 3-4pm, and by appointment
+- **Office hours**: TBA
 
 ## Resources
 
-- **Lectures** will take place *synchronously* on MS Teams. If you
-  have not been added to the CS 295 Team, please email me. Lectures
-  will be recorded and available on MS Teams for offline viewing.
+- **Lectures** will be in-person.
 - **Course textbooks** are available online (see below)
 - **Blackboard** for the course is available [here](https://bb.uvm.edu/webapps/blackboard/execute/launcher?type=Course&id=_143340_1&url=)
 - **Course Github Repo** [is available here](https://github.com/jnear/cs295-secure-computation)
-- **Daily exercises**
+- **Weekly exercises**
   - [Download exercises here](https://github.com/jnear/cs295-secure-computation/tree/master/exercises)
   - Turn in notebook files on Blackboard
 - **Homework assignments** 
@@ -98,8 +97,10 @@ throughout the semester.
 
 Your grade for the course will be determined as follows:
 
-- 11 homework assignments (5% each; 55% total)
-- in-class exercises (25% total) (3 lowest scores will be dropped)
+- 10 homework assignments (5% each; 50% total)
+- in-class exercises (20% total)
+- midterm exam (5%)
+- final exam (5%)
 - final project (20%)
 
 ### Exams & Quizzes
@@ -107,7 +108,7 @@ Your grade for the course will be determined as follows:
 There will be no exams for this course.
 There is no final exam, and this course will conclude before the University's exam period.
 
-### Homework Assignments and Daily In-class Exercises
+### Homework Assignments and Weekly In-class Exercises
 
 This course will use Python for examples and for programming
 assignments.  Students are expected to be proficient in Python
@@ -161,15 +162,17 @@ Click [here](https://jnear.github.io/cs295-secure-computation/projects) for more
 
 ## Schedule
 
+**NOTE**: The schedule has not yet been updated for Fall 2022. The
+dates will change, but the topics will remain mostly the same.
+
 Note that class will **not** be held on the following dates:
 
-- Monday, Sep. 7 (labor day)
-- Wednesday and Friday of Thanksgiving week
+- TBA
 
 Important due dates:
 
 - Homework assignments are due every *Monday* at 11:59pm.
-- In-class exercises are due *the day of the class*, by 11:59pm.
+- In-class exercises are due every *Friday*, by 11:59pm.
 
 | Item                                                                                                    | Due Date |
 | -----------------------------------------------------------------------------------------------:        | -------- |
