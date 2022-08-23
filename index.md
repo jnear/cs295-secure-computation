@@ -5,10 +5,19 @@ layout: default
 
 # UVM CS 295/395: Secure Distributed Computation (Fall 2022)
 
-## Announcements
-
-- I'm still updating the course description for Fall 2022 - some of
-  the information below may change.
+  * [Course Description](#course-description)
+  * [Administrative](#administrative)
+  * [Resources](#resources)
+  * [Textbook & Other References](#textbook---other-references)
+  * [Policies](#policies)
+    + [Grading](#grading)
+    + [Exams & Quizzes](#exams---quizzes)
+    + [Homework Assignments and In-class Exercises](#homework-assignments-and-in-class-exercises)
+    + [Late Work](#late-work)
+    + [Collaboration & Allowed References](#collaboration--allowed-references)
+  * [Final Projects](#final-projects)
+  * [CS Student Research Day & Extra Credit](#cs-student-research-day--extra-credit)
+  * [Schedule](#schedule)
 
 ## Course Description
 
@@ -48,15 +57,15 @@ By the end of this course, you will be able to:
 
 ## Administrative
 
-- **Lecture**: Monday, Wednesday, Friday, 10:50am-11:40am in MARSH LIFE SCI 105
+- **Lecture**: Monday, Wednesday, Friday, 10:50am-11:40am in Marsh Life Science 105
 - **Instructor**: Joe Near (jnear at uvm dot edu)
-- **Office hours**: TBA
+- **Office hours**: 
+  - **Joe Near** (instructor): Mondays and Fridays, 9:30am-10:30am, and by appointment; Innovation Hall E458 (or MS Teams)
 
 ## Resources
 
-- **Lectures** will be in-person.
 - **Course textbooks** are available online (see below)
-- **Blackboard** for the course is available [here](https://bb.uvm.edu/webapps/blackboard/execute/launcher?type=Course&id=_143340_1&url=)
+- **Blackboard** for the course is available [here](https://bb.uvm.edu/webapps/blackboard/execute/launcher?type=Course&id=_173067_1)
 - **Course Github Repo** [is available here](https://github.com/jnear/cs295-secure-computation)
 - **Weekly exercises**
   - [Download exercises here](https://github.com/jnear/cs295-secure-computation/tree/master/exercises)
@@ -65,7 +74,7 @@ By the end of this course, you will be able to:
   - [Download notebooks here](https://github.com/jnear/cs295-secure-computation/tree/master/homework)
   - Turn in notebook files on Blackboard
 - **Discussions** will take place on MS Teams
-- **Videos** from lecture are available [here](https://web.microsoftstream.com/group/3416a83c-5358-4b6e-8747-01d9c1963f01?view=videos)
+- **Review Sheets** for exams will be available here (TBA)
 
 ## Textbook & Other References
 
@@ -87,10 +96,6 @@ We will use the following textbooks for this course:
 In addition to these, we will reference a number of academic papers
 throughout the semester.
 
-### Links and Helpful Resources
-
-- None yet
-
 ## Policies
 
 ### Grading
@@ -98,26 +103,62 @@ throughout the semester.
 Your grade for the course will be determined as follows:
 
 - 10 homework assignments (5% each; 50% total)
-- in-class exercises (20% total)
-- midterm exam (5%)
-- final exam (5%)
-- final project (20%)
+- in-class weekly exercises (20% total)
+- midterm exam (10%)
+- final exam (10%)
+- final project (10%)
+
+Your final grade will be determined by summing the total number of
+points awarded and calculating the percentage of the total possible
+points. This percentage is translated into a letter grade as follows:
+
+#### Undergraduate Students
+
+| Percent | Letter Grade |
+| ------: | ------------ |
+| 98-100  | A+           |
+| 93-97   | A            |
+| 90-92   | A-           |
+| 87-89   | B+           |
+| 83-86   | B            |
+| 80-82   | B-           |
+| 77-79   | C+           |
+| 73-76   | C            |
+| 70-72   | C-           |
+| 67-69   | D+           |
+| 63-66   | D            |
+| 60-62   | D-           |
+| <60     | F            |
+
+#### Graduate Students
+
+| Percent | Letter Grade |
+| ------: | ------------ |
+| 98-100  | A+           |
+| 93-97   | A            |
+| 90-92   | A-           |
+| 87-89   | B+           |
+| 83-86   | B            |
+| 80-82   | B-           |
+| 77-79   | C+           |
+| 73-76   | C            |
+| 70-72   | C-           |
+| <70     | F            |
 
 ### Exams & Quizzes
 
-There will be no exams for this course.
-There is no final exam, and this course will conclude before the University's exam period.
+There will be two exams: a midterm and a final. You will be allowed one page of notes for each exam. See the schedule below for the dates.
 
-### Homework Assignments and Weekly In-class Exercises
+### Homework Assignments and In-class Exercises
 
 This course will use Python for examples and for programming
 assignments.  Students are expected to be proficient in Python
 programming.  Programming assignments will be distributed and turned
 in as Jupyter notebooks. [Click
-here](https://jnear.github.io/cs295-secure-computation/jupyter) for
+here](https://jnear.github.io/cs211-data-privacy/jupyter) for
 instructions on installing Jupyter Notebook.
 
-**Assignment Submission*: Homework and in-class exercises will be
+**Assignment Submission**: Homework and in-class exercises will be
 turned in via Blackboard.
 
 To submit an assignment:
@@ -141,8 +182,7 @@ email me *before the deadline*. Depending on the circumstances, I may
 
 Collaboration on the high-level ideas and approach on assignments is encouraged.
 Copying someone else's work is not allowed.
-Any collaboration, even at a high level, must be declared when you submit your assignment.
-Every assignment must include a collaboration statement.
+Any collaboration, even at a high level, must be declared when you submit your assignment, in a note at the top of the assignment.
 E.g., "I discussed high-level strategies for solving problem 2 and 5 with Alex."
 
 The official references for the course are listed in the schedule below.
@@ -160,55 +200,73 @@ The final project will demonstrate your mastery of the concepts covered in this 
 
 Click [here](https://jnear.github.io/cs295-secure-computation/projects) for more complete information.
 
-## Schedule
+## CS Student Research Day & Extra Credit
 
-**NOTE**: The schedule has not yet been updated for Fall 2022. The
-dates will change, but the topics will remain mostly the same.
+We will **not hold class** on **Friday, September 23**. I encourage you
+to attend [CS Student Research
+Day](https://www.uvm.edu/~jonaolap/csrd/2022.html) and learn about
+the awesome research being done by CS students at UVM!
+
+- If you attend **one full session** of talks (either morning or
+  afternoon, or both!), **take brief notes on the talks you hear**,
+  and **send the notes to me via email by 11:59pm on September 23**, I
+  will give **1% extra credit to your final grade in the course**
+
+## Schedule
 
 Note that class will **not** be held on the following dates:
 
-- TBA
+- Monday, September 5 (Labor Day)
+- Friday, September 23 (please attend [CS Student Research Day](https://www.uvm.edu/~jonaolap/cs-srd/2021.html))
+- Friday, October 14 (Fall Recess)
+- November 21-25 (Thanksgiving)
 
 Important due dates:
 
 - Homework assignments are due every *Monday* at 11:59pm.
-- In-class exercises are due every *Friday*, by 11:59pm.
+- In-class weekly exercises are due every *Friday*, by 11:59pm.
 
-| Item                                                                                                    | Due Date |
-| -----------------------------------------------------------------------------------------------:        | -------- |
-| [Homework 1](https://github.com/jnear/cs295-secure-computation/blob/master/homework/HW_1.ipynb)         | 9/14/20  |
-| [Homework 2](https://github.com/jnear/cs295-secure-computation/blob/master/homework/HW_2.ipynb)         | 9/21/20  |
-| [Homework 3](https://github.com/jnear/cs295-secure-computation/blob/master/homework/HW_3.ipynb)         | 9/28/20  |
-| [Homework 4](https://github.com/jnear/cs295-secure-computation/blob/master/homework/HW_4.ipynb)         | 10/5/20  |
-| Homework 5 *lite*                                                                                       | 10/14/20 |
-| [Homework 6](https://github.com/jnear/cs295-secure-computation/blob/master/homework/CS295_HW_6.ipynb)   | 10/19/20 |
-| [Homework 7](https://github.com/jnear/cs295-secure-computation/blob/master/homework/CS295_HW_7.ipynb)   | 10/26/20 |
-| [Homework 8](https://github.com/jnear/cs295-secure-computation/blob/master/homework/CS295_HW_8.ipynb)   | 11/2/20  |
-| [Homework 9](https://github.com/jnear/cs295-secure-computation/blob/master/homework/CS295_HW_9.ipynb)   | 11/9/20  |
-| [Homework 10](https://github.com/jnear/cs295-secure-computation/blob/master/homework/CS295_HW_10.ipynb) | 11/16/20 |
-| Homework 11 *lite*                                                                                      | 12/4/20  |
-| Project proposals                                                                                       | 12/2/20  |
-| Final project writeup/video/implementation                                                              | 12/9/20  |
+Exam dates:
+
+- Midterm exam: Wednesday, October 11, during class (Marsh Life Science 105)
+- Final exam: December 12, 10:30am - 11:30am (Marsh Life Science 105)
+
+Homework dates:
+
+| Item                                                                                       | Due Date |
+| -----------------------------------------------------------------------------------------: | -------- |
+| Homework 1                                                                                 | 9/12/21  |
+| Homework 2                                                                                 | 9/19/21  |
+| Homework 3                                                                                 | 9/26/21  |
+| Homework 4                                                                                 | 10/3/21  |
+| Homework 5                                                                                 | 10/17/21 |
+| Homework 6                                                                                 | 10/24/21 |
+| Homework 7                                                                                 | 10/31/21 |
+| Homework 8                                                                                 | 11/7/21  |
+| Homework 9                                                                                 | 11/14/21 |
+| Homework 10                                                                                | 12/5/21  |
+| Project proposals                                                                          | 11/18/21 |
+| Final project writeup/video/implementation                                                 | 12/12/21 |
 
 Schedule of topics:
 
 | Week of... | Topics                                                                               | Reference  |
 | ---------: | ------------------------------------------------------------------------------------ | ---------  |
-| 8/31/20    | Intro to secure computation, additive secret sharing                                 | PMPC Ch. 1 |
-| 9/7/20     | Adversaries and threat models (no class Monday)                                      | PMPC Ch. 2 |
-| 9/14/20    | Shamir secret sharing                                                                | PMPC Ch. 3 |
-| 9/21/20    | Shamir secret sharing operations                                                     | PMPC Ch. 3 |
-| 9/28/20    | Multiparty computation for arithmetic circuits: GMW protocol                         | PMPC Ch. 3 |
-| 10/5/20    | *Intermission*. Real systems; garbled circuits; malicious MPC                        | PMPC Ch. 6 |
-| 10/12/20   | Partially homomorphic cryptosystems: Paillier and El Gamal                           | TBA        |
-| 10/19/20   | Fully homomorphic encryption                                                         | TBA        |
-| 10/26/20   | Zero-knowledge proof I                                                               | PMPC Ch. 6 |
-| 11/2/20    | Zero-knowledge proof II                                                              | PMPC Ch. 6 |
-| 11/9/20    | Distributed ledgers and blockchains                                                  | BCT Ch. 1  |
-| 11/16/20   | Bitcoin                                                                              | BCT Ch. 2  |
-| 11/23/20   | Challenges of Bitcoin (no class Wednesday, Friday)                                   | BCT        |
-| 11/30/20   | Blockchain applications: smart contracts, filesystems, etc                           | BCT Ch. 10 |
-| 12/2/20    | Open challenges and project presentations                                            |            |
+| 8/29/22    | Intro to secure computation, additive secret sharing (no exercise)                   | PMPC Ch. 1 |
+| 9/5/22     | Adversaries and threat models (no class Monday)                                      | PMPC Ch. 2 |
+| 9/12/22    | Shamir secret sharing                                                                | PMPC Ch. 3 |
+| 9/19/22    | Shamir secret sharing operations; MPC for arithmetic circuits (no class Friday)      | PMPC Ch. 3 |
+| 9/26/22    | Circuits; MPC protocols for circuits                                                 | PMPC Ch. 3 |
+| 10/3/22    | GMW protocol; garbled circuits protocol; malicious MPC                               | PMPC Ch. 6 |
+| 10/10/22   | *Intermission*. Review (exam Wednesday; no class Friday; no exercise)                | None       |
+| 10/17/22   | Partially homomorphic cryptosystems: Paillier and El Gamal                           | TBA        |
+| 10/24/22   | Fully homomorphic encryption                                                         | TBA        |
+| 10/31/22   | Zero-knowledge proof                                                                 | PMPC Ch. 6 |
+| 11/7/22    | Distributed ledgers and blockchains                                                  | BCT Ch. 1  |
+| 11/14/22   | Bitcoin & its challenges                                                             | BCT Ch. 2  |
+| 11/21/22   | No class (Thanksgiving)                                                              | BCT        |
+| 11/28/22   | Blockchain applications: smart contracts, filesystems, etc                           | BCT Ch. 10 |
+| 12/5/22    | Open challenges; review                                                              |            |
 
 # Accommodations
 

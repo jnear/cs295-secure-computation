@@ -1,5 +1,7 @@
 # Final Project Information (Fall 2020)
 
+# This page is not yet updated for 2022
+
 ## Schedule & Requirements
 
 ### Requirements
