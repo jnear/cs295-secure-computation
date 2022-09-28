@@ -96,6 +96,8 @@ We will use the following textbooks for this course:
 In addition to these, we will reference a number of academic papers
 throughout the semester.
 
+A very cool [podcast recently appeared on Unexplainable](https://megaphone.link/VMP1399619625) about cryptography, including interviews with Whit Diffie, Martin Hellman, and Rafael Pass.
+
 ## Policies
 
 ### Grading
