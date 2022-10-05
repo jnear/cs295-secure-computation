@@ -230,7 +230,7 @@ Important due dates:
 
 Exam dates:
 
-- Midterm exam: Wednesday, October 11, during class (Marsh Life Science 105)
+- Midterm exam: Wednesday, October 12, during class (Marsh Life Science 105)
 - Final exam: December 12, 10:30am - 11:30am (Marsh Life Science 105)
 
 Homework dates:
