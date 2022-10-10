@@ -74,7 +74,8 @@ By the end of this course, you will be able to:
   - [Download notebooks here](https://github.com/jnear/cs295-secure-computation/tree/master/homework)
   - Turn in notebook files on Blackboard
 - **Discussions** will take place on MS Teams
-- **Review Sheets** for exams will be available here (TBA)
+- **Review Sheets** for exams:
+  - [Exam 1](https://github.com/jnear/cs295-secure-computation/tree/master/resources/review-exam1.md)
 
 ## Textbook & Other References
 
