@@ -4,7 +4,7 @@
 
 ### Requirements
 
-The goal of the final project is for you to build a complete system that accomplishes a realistic task while ensuring differential privacy. Final projects will be completed in groups of 1-3. The deliverables for the project will be as follows:
+The goal of the final project is for you to build a complete system that accomplishes a realistic task with strong security guarantees. Final projects will be completed in groups of 1-3. The deliverables for the project will be as follows:
 
 - A *project proposal* of 1 paragraph, describing:
   - Who is in your group
