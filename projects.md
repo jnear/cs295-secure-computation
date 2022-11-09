@@ -1,6 +1,4 @@
-# Final Project Information (Fall 2020)
-
-# This page is not yet updated for 2022
+# Final Project Information (Fall 2022)
 
 ## Schedule & Requirements
 
@@ -25,14 +23,14 @@ The goal of the final project is for you to build a complete system that accompl
 
 ### Schedule & Grading
 
-The final project is worth 20% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
+The final project is worth 10% of your final grade. The schedule for final project deliverables, and the contribution of each one to the grade you receive for the final project, are as follows:
 
 | Deliverable                | Due Date                      | Grade Percent | Turn In    |
 | ---------------------:     | ----------------------------- | ------------- | ---------- |
-| Project Proposal           | 12/2/20 by 11:59pm            | 10%           | Blackboard |
-| Project Presentation Video | 12/9/20 by 11:59pm            | 30%           | Blackboard |
-| Implementation             | 12/9/20 at 5:00pm             | 40%           | Blackboard |
-| Project Writeup            | 12/9/20 at 5:00pm             | 20%           | Blackboard |
+| Project Proposal           | 11/18/22 by 11:59pm           | 10%           | Blackboard |
+| Project Presentation Video | 12/12/22 by 11:59pm           | 30%           | Blackboard |
+| Implementation             | 12/12/22 at 11:59pm           | 40%           | Blackboard |
+| Project Writeup            | 12/12/22 at 11:59pm           | 20%           | Blackboard |
 
 
 ### Graduate Students
@@ -49,6 +47,7 @@ You're welcome to work on any project interesting to you, as long as it's relate
 - Bootstrapping circuit for FHE (very challenging)
 - Implementation of non-interactive ZK protocol for graph coloring
 - Circuits to check validity of electronic votes (see the voting protocol from our homework)
+- Implementation of one of the case studies from Homework 6
 - Cryptocurrency implementation (validation of blockchain; validation of transactions; coin-based transactions)
 - Simulation of distributed cryptocurrency system (broadcasting transactions; mining; broadcasting new blocks)
 
