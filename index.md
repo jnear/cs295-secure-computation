@@ -76,6 +76,7 @@ By the end of this course, you will be able to:
 - **Discussions** will take place on MS Teams
 - **Review Sheets** for exams:
   - [Exam 1](https://github.com/jnear/cs295-secure-computation/tree/master/resources/review-exam1.md)
+  - [Exam 2](https://github.com/jnear/cs295-secure-computation/tree/master/resources/review-exam2.md)
 
 ## Textbook & Other References
 
